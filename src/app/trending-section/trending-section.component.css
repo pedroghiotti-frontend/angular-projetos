@@ -1,0 +1,40 @@
+#container
+{
+    display: flex;
+    height: 8rem;
+    gap: 1.5rem;
+}
+
+.articleContent
+{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+img
+{
+    height: 100%;
+}
+
+.counter
+{
+    opacity: .25;
+
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.title
+{
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+.title:hover
+{
+    color: var(--accentColor);
+}
+
+.text
+{
+    opacity: .5;
+}
