@@ -1,0 +1,41 @@
+:root
+{
+    --backgroundColor: #1E0538;
+    --primaryColor: magenta;
+    --secondaryColor: lime;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    border: none;
+
+    font-family: 'Roboto', 'Segoe UI', sans-serif;
+    color: white;
+    text-align: center;
+
+    box-sizing: border-box;
+}
+
+body, html
+{
+    width: 100%;
+    height: 100%;
+    background-color: var(--backgroundColor);
+}
+
+app-root
+{
+    width: 100%;
+    height: 100%;
+    
+    padding: 3rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+
+    align-items: center;
+    align-content: center;
+}
